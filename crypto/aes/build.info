@@ -46,6 +46,8 @@ INCLUDE[aes-armv4.o]=..
 GENERATE[bsaes-armv7.S]=asm/bsaes-armv7.pl $(PERLASM_SCHEME)
 INCLUDE[bsaes-armv7.o]=..
 
+GENERATE[aes-s390x.S]=asm/aes-s390x.pl $(PERLASM_SCHEME)
+
 BEGINRAW[Makefile]
 ##### AES assembler implementations
 
